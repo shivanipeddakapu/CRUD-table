@@ -1,0 +1,93 @@
+
+body {
+    background-color: #f0fdf0; 
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+form {
+    background-color: #e6f7e6; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #8cc98c; 
+    border-radius: 4px;
+}
+
+
+input:hover {
+    border-color: #5aaf5a; 
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 10px;
+}
+
+
+button {
+    background-color: #5aaf5a; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 48%; 
+    margin-left: 3px;
+}
+
+
+button:hover {
+    background-color: #3f8b3f; 
+}
+
+
+#addH1 {
+    text-align: center;
+    color: #3f8b3f; 
+   
+}
+#add{
+    width: 100px;
+    margin-left: 300px;
+}
+
+table {
+    width: 70%; 
+    border-collapse: collapse;
+    margin: 20px auto; 
+}
+
+table, th, td {
+    border: 1px solid #8cc98c; 
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #e6f7e6; 
+}
+
+tr:nth-child(odd) {
+    background-color: #c9e5c9;
+}
+#crud{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
