@@ -4,8 +4,9 @@ import axios from 'axios';
 import "./style.css"
 
 const Update = () => {
-    const [values, setValues] = useState({ username: "", email: "" });
+    const [values, setValues] = useState({name:" ", username: "", email: "" });
     const navigate = useNavigate();
+   
 
     const change = (e) => {
         setValues({ ...values, [e.target.name]: e.target.value });

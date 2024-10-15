@@ -9,7 +9,8 @@ const GetUsers = () => {
     //     navigate("/add")
     // }
     useEffect(()=>{
-       let x= axios.get("http://localhost:3000/users");x.then(res=> {
+       let x= axios.get("http://localhost:3000/users");
+       x.then(res=> {
            setState(res.data);
             setThead (Object.keys(res.data[0]).slice(0,4))
             x.catch(err=>console.log(err)

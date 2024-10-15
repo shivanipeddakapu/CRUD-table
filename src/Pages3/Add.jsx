@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 const Add = () => {
-    const [values, setValues] = useState({username: "", email: "" });
+    const [values, setValues] = useState({name:" ", username: "", email: "" });
     const navigate = useNavigate();
 
     const change = (e) => {
